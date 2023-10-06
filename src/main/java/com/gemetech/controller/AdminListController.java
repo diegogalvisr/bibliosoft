@@ -9,13 +9,13 @@ import com.gemetech.service.AdminListService;
 
 @Controller
 public class AdminListController {
-	
+
 	@Autowired
 	private AdminListService service;
-	
+
 	@RequestMapping("/deleteMyList/{id}")
 	public String deleteMyList(@PathVariable("id") int id) {
 		service.deleteById(id);
-		return "redirect:/my_books";
+		return "redirect:/adminActivo";
 	}
 }

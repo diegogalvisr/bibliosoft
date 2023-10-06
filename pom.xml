@@ -11,7 +11,7 @@
 	<groupId>com.gemetech</groupId>
 	<artifactId>biblisoft</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>biblisoft</name>
+	<name></name>
 	<description>Sistema de gestion bibliotecario</description>
 	<properties>
 		<java.version>17</java.version>
